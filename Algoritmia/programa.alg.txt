@@ -1,0 +1,24 @@
+Main:
+  <a = 5>
+  <b = 10>
+  
+  if a > b:
+    <w> "a es mayor que b">
+  
+  else:
+    <w> "a es menor que b">
+  
+  <w> a + b>
+  
+  while a < 15:
+    <a = a + 1>
+    <w> a>
+    
+  <suma = 0>
+  
+  proc Suma(x, y):
+    <suma = x + y>
+    
+  Suma(a, b)
+  
+  <w> suma>
